@@ -1,4 +1,4 @@
 # scienzaradicata.github.io
-Website of the project "Scienza Radicata".
+Website of the project "Scienza Radicata"
 
-Per qualunque domanda scrivere a scienzaradicata@gmail.com
+For info write to scienzaradicata@gmail.com
