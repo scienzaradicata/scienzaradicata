@@ -1,0 +1,80 @@
+<!--------------contenuto pagina Chi Siamo------------->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Scienza radicata</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Permanent+Marker&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/42b09b937d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header_sost">
+        <nav>
+            <a href="index.html"><img src="images/logo_vero.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="project.html">PROGETTO</a></li>
+                    <li><a href="about.html">CHI SIAMO</a></li>
+                    <li><a href="events.html">EVENTI</a></li>
+                    <li><a href="fundus.html">SOSTIENICI</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Sostienici</h1>
+    </section>
+
+    <!--------Crwodfunding------>
+    <section class="dona">
+        <h1>Crowdfunding</h1>
+        <h3>Il nostro progetto ha superato la selezione del Bando Impatto+ 2021! di Banca Etica.&emsp;<a href="https://www.bancaetica.it/blog/crowdfunding/cambiamento-climatico-ambiente-nuovo-bando-crowdfunding" style="color: black;"><i class="fas fa-external-link-alt"></i></a></h3>
+        <p>
+            Il bando serve a cofinanziare in crowdfunding persone under 35 con progetti di attivismo civico e cittadinanza 
+            attiva finalizzati alla salvaguardia dell’ambiente e alla lotta al cambiamento climatico.
+        </p>
+        <p>A partire dal 13 dicembre 2021 è possibile finanziare il nostro progetto sulla piattaforma di raccolta fondi 
+            Produzioni dal Basso. 
+        </p>
+        <p>Se sei arrivato qui e stai valutando l’opzione di sostenerci desideriamo ringraziarti di cuore.
+            <br> Potenziali donazioni come la tua sono fondamentali per aiutarci a sostenere i costi che insorgono 
+            nel portare avanti le nostre attività e i vari progetti a cui dedichiamo tempo, denaro e sforzi. 
+        </p>
+    </section>
+    <!--------Crwodfunding click------>
+    <section class="fundus">
+        <h1>Sostieni le attività di Scienza Radicata</h1>
+        <p>Aiutaci a portare a termine le nostre campagne</p>
+        <a href="" class="fund-btn">Dona ora</a>
+    </section>
+    <!--------Footer------>
+    <section class="footer">
+        <h4>Contatti</h4>
+        <p>Vari canali d'informazione per seguire gli sviluppi del progetto e per qualunqe domanda.</p>
+        <div class="icons">
+            <i class="fas fa-at"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </section>
+
+    <!--------JavaScript for Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>    
+</body>
+</html>

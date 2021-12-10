@@ -1,0 +1,179 @@
+<!--------------contenuto pagina Chi Siamo------------->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Scienza radicata</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Permanent+Marker&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/42b09b937d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header_proj">
+        <nav>
+            <a href="index.html"><img src="images/logo_vero.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="project.html">PROGETTO</a></li>
+                    <li><a href="about.html">CHI SIAMO</a></li>
+                    <li><a href="events.html">EVENTI</a></li>
+                    <li><a href="fundus.html">SOSTIENICI</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Progetto</h1>
+    </section>
+
+    
+    <!--------Mission------>
+    <section class="mission">
+        <p> Viviamo in città che sono nate lungo fiumi, ora irriconoscibili; respiriamo 
+            aria insalubre e camminiammo su suoli di cui non conosciamo la vera salute. 
+            Acqua, aria e suolo sono fondamentali per la nostra sopravvivenza, purtroppo la loro disponibilità si sta riducendo e lo farà 
+            sempre di più, a causa dei cambiamenti climatici ma soprattutto a causa di un modello di sviluppo che 
+            mira al profitto e non alla tutela dell'accessibilità a queste risorse. 
+            
+            Questo è il tempo di agire contro un inquinamento di cui siamo vittime e carnefici!
+        </p>
+        <div class="row">
+            <div class="mission-col">
+                <h1>Una scienza di tutti e per tutti</h1>
+            </div>
+            <div class="mission-col">
+                <p>
+                    Aiutaci a costruire una rete formata da scienziatə, realtà locali e attivistə per condividere 
+                    saperi e pratiche. Ci aiuterai a formare comunità ecologiche e consapevoli, capaci di rivendicare giustizia
+                    ambientale e diritti  attraverso strumenti tecnologici, scientifici e legali.
+                </p>
+            </div>
+        </div>
+        <!--------Solution------>
+        <div class="row">
+            <div class="mission-col">
+                <p>
+                    Scienza Radicata propone una soluzione locale per un problema globale: mettere a disposizione delle 
+                    comunità vulnerabili le conoscenze di giovani scienziatə per co-progettare percorsi di monitoraggio 
+                    e gestione delle risorse naturali, tramite giornate di formazione e percorsi di scienza partecipata, 
+                    in modo innescare azioni concrete in un’ottica di mutualismo e ricerca-azione.
+                </p>
+            </div>
+            <div class="solution-col">
+                <h1>Una soluzione locale per <br> un problema globale</h1>
+            </div>
+        </div>
+    </section>
+
+    <!--------Linee guida------>
+    <section class="LG">
+        <h1>Linee guida</h1>
+        <div class="row">
+            <div class="colonna_LG">
+                <div class="item_LG" onclick="discover()">
+                    <h2><i class="fas fa-search"></i>&nbsp;&nbsp;Scoprire e conoscere</h2>
+                </div>
+                <div class="item_LG" onclick="plan()">
+                    <h2><i class="fas fa-brain"></i>&nbsp;&nbsp;Pianificare e sperimentare</h2>
+                </div>
+                <div class="item_LG" onclick="analize()">
+                    <h2><i class="fas fa-laptop-code"></i>&nbsp;&nbsp;Analizzare e verificare</h2>
+                </div>
+                <div class="item_LG" onclick="understand()">
+                    <h2><i class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;Capire e coinvolgere</h2>
+                </div>
+                <div class="item_LG" onclick="communicate()">
+                    <h2><i class="fas fa-bullhorn"></i>&nbsp;&nbsp;Comunicare e rivendicare</h2>
+                </div>
+            </div>
+            <div class="colonna_LG">
+                <img src="images/water.jpg" id="immagine">
+                <div class="bottom-right">
+                    <h1 id="titolo">La nostra idea di Scienza</h1>
+                    <p id="paragrafo"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------Crwodfunding click------>
+    <section class="fundus">
+        <h1>Sostieni le attività di Scienza Radicata</h1>
+        <p>Aiutaci a portare a termine le nostre campagne</p>
+        <a href="" class="fund-btn">Dona ora</a>
+    </section>
+    <!--------Footer------>
+    <section class="footer">
+        <h4>Contatti</h4>
+        <p>Vari canali d'informazione per seguire gli sviluppi del progetto e per qualunqe domanda.</p>
+        <div class="icons">
+            <i class="fas fa-at"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </section>
+
+    <!--------JavaScript for Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>    
+    <!--------JavaScript for pop up------>
+    <script>
+        var figura = document.getElementById("immagine");
+        function discover(){
+			document.getElementById('paragrafo')
+			.innerHTML="<li>Come fare monitoraggio della qualità del suolo e dell’acqua. </li> <br> <li>Come tracciare inquinanti nelle matrici ambientali con tecniche riproducibili e a costo moderato, con l’obiettivo di sostanziare rivendicazioni e campagne a partire da dati di prima mano. </li>";
+			document.getElementById('titolo')
+			.innerHTML="";
+            figura.style.opacity="0.1";
+		}
+        function plan(){
+			document.getElementById('paragrafo')
+			.innerHTML="<li>Come programmare la gestione di sistemi ortofrutticoli e colturali seguendo principi agroecologici a partire dal monitoraggio del suolo e delle risorse idriche. </li> <br> <li>Come approcciare la conservazione di sistemi naturali e preservare la biodiversità locale seguendo principi ecologici a partire dalle osservazioni e dai monitoraggi.</li>";
+			document.getElementById('titolo')
+			.innerHTML="";
+            figura.style.opacity="0.1";
+		}
+        function analize(){
+			document.getElementById('paragrafo')
+			.innerHTML="<li>Come approcciare l’analisi dei dati scientifici raccolti.</li> <br> <li>Come inquadrare i monitoraggi all’interno dei parametri limite previsti dalle leggi.</li> <br> <li>Come definire eventuali indicatori utili per la valutazione e il supporto alle decisioni.</li>";
+			document.getElementById('titolo')
+			.innerHTML="";
+            figura.style.opacity="0.1";
+		}
+        function understand(){
+			document.getElementById('paragrafo')
+			.innerHTML="<li>Come creare laboratori didattici con approccio “hands-on” sui temi della crisi ecologica e sulle modalità di monitoraggio, per favorire il coinvolgimento di scuole, giovani e comunità nei progetti di monitoraggio.</li>";
+			document.getElementById('titolo')
+			.innerHTML="";
+            figura.style.opacity="0.1";
+		}
+        function communicate(){
+			document.getElementById('paragrafo')
+			.innerHTML="<li>Come comunicare alla cittadinanza e alle istituzioni i risultati dei monitoraggi tramite la scrittura di report, comunicati stampa, articoli di inchiesta e divulgazione.</li>";
+			document.getElementById('titolo')
+			.innerHTML="";
+            figura.style.opacity="0.1";
+		}
+        
+        
+    </script>
+
+</body>
+</html>
+
+
