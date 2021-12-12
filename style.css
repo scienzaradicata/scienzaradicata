@@ -263,6 +263,47 @@ h3{
     color: rgb(245, 136, 136);
 }
 
+/*-------Newsletter--------*/
+.news {
+    width: 80%;
+    padding: 20px;
+    margin: auto ;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 2%;
+}
+input[type=text] {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+} 
+input[type=submit]    {
+    width: 40%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;     
+} 
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+input[type=submit]{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: rgba(189, 67, 11, 0.705);
+    position: relative;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+}
 /*-------Sostienici--------*/
 .fundus {
     height: 40vh;
