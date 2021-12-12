@@ -741,7 +741,7 @@ h3{
 .sub-header_events{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(200deg,rgba(4,9,30,0.7),rgba(189, 67, 11, 0.705)),url(images/eventi.JPG);
+    background-image: linear-gradient(200deg,rgba(4,9,30,0.7),rgba(189, 67, 11, 0.705)),url(images/eventi.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
