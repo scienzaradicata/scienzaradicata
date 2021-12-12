@@ -11,7 +11,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(200deg,rgba(4,9,30,0.7),rgba(189, 67, 11, 0.705),rgba(4,9,30,0.7)), url(images/background.jpg);
+    background-image:linear-gradient(200deg,rgba(4,9,30,0.7),rgba(189, 67, 11, 0.705),rgba(4,9,30,0.7)), url(images/background2.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
