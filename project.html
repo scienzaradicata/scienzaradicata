@@ -1,4 +1,4 @@
-<!--------------contenuto pagina Chi Siamo------------->
+<!--------------contenuto pagina Progetto------------->
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,7 +33,20 @@
         <h1>Progetto</h1>
     </section>
 
-    
+    <!--------Video di presentazione------>
+    <section class="video">
+        <h1>La nostra idea di Scienza Radicata</h1>
+        <div class="video-button" data-aperture="closed">
+            <div class="video-container" >
+              <video class="actual-video" src="https://github.com/scienzaradicata/scienzaradicata.github.io/raw/main/video_small.mp4" poster="images/black.png">
+              </video>
+              <div class="play-button__aperture--left"></div>
+              <div class="play-button__aperture--top-right"></div>
+              <div class="play-button__aperture--bottom-right"></div>
+            </div>
+            </div>
+    </section>
+	
     <!--------Mission------>
     <section class="mission">
         <p> Viviamo in città che sono nate lungo fiumi, ora irriconoscibili; respiriamo 
@@ -119,7 +132,23 @@
 	    <p style="font-size: 14px;"><a href="https://www.facebook.com/Scienza-Radicata-107640761769529/?ref=page_internal"><i class="fab fa-facebook-square" style="font-size: 20px;"></a></i>Scienza Radicata</p>
 	</div>
 	</section>
+    <!--------JavaScript for video ------>
+    <script>
+        console.clear();
 
+        var videoEl = document.querySelector('video');
+        document.querySelector('.video-button').addEventListener('click', 
+                                                                    function(){
+        if(this.dataset.aperture === 'open') {
+            this.dataset.aperture = 'closed';
+            videoEl.pause();
+            videoEl.progress = 0;
+        } else {
+            this.dataset.aperture = 'open';
+            videoEl.play();
+        }
+        });
+    </script>	
     <!--------JavaScript for Toggle Menu------>
     <script>
         var navLinks = document.getElementById("navLinks");
