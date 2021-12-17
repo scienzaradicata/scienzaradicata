@@ -368,6 +368,7 @@ h3{
     background-size: cover;
     text-align: center;
     color: white;
+    margin-bottom: 5%;
 }
 .mission{
     width: 80%;
@@ -426,6 +427,7 @@ h3{
     margin-bottom: 5%;
     text-align: center;
     padding-top: 50px;
+    background-color: #eae8ebdd;
 }
 .video h1{
     padding-bottom: 100px;
