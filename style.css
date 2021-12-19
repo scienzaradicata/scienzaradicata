@@ -1020,6 +1020,7 @@ h3{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal-content_2 {
+    display: flex;
     position: relative;
     background-color: #fdebd6f0;
     margin: auto;
@@ -1046,6 +1047,7 @@ h3{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal-content_3 {
+    display: flex;
     position: relative;
     background-color: #fdebd6f0;
     margin: auto;
@@ -1072,6 +1074,7 @@ h3{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal-content_4 {
+    display: flex;
     position: relative;
     background-color: #fdebd6f0;
     margin: auto;
@@ -1098,6 +1101,7 @@ h3{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal-content_5 {
+    display: flex;
     position: relative;
     background-color: #fdebd6f0;
     margin: auto;
@@ -1124,6 +1128,7 @@ h3{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal-content_6 {
+    display: flex;
     position: relative;
     background-color: #fdebd6f0;
     margin: auto;
